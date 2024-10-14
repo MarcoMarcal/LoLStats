@@ -1,0 +1,51 @@
+:root {
+    --cor-fundo: #117f09;
+    --cor-letras-prin: #fffeea;
+    --cor-fund-secun: #084c05;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+}
+
+header {
+    background: var(--cor-fund-secun);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h2{
+    color: var(--cor-letras-prin);
+}
+
+a {
+    color: var(--cor-letras-prin);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 15px 15px;
+    border-color: black;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 15px;
+}
+a:hover {
+    color: var(--cor-fundo);
+}
+
+.rounded-input {
+    border: 2px solid #ccc;
+    border-radius: 20px; /* Arredondando as bordas */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 16px;
+    outline: none; /* Remove o contorno padrão */
+    transition: border-color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+.rounded-input:focus {
+    border-color: var(--cor-letras-prin); /* Cor do contorno ao focar */
+}
